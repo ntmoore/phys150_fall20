@@ -1,6 +1,6 @@
 # phys150_fall20
-Physics 150 at Winona State University
+Code for Physics 150 at Winona State University
 
--Carl Ferkinhoff, cferkinhoff@winona.edu
--Nathan Moore, nmoore@winona.edu
+Carl Ferkinhoff, cferkinhoff@winona.edu
+and Nathan Moore, nmoore@winona.edu
 
