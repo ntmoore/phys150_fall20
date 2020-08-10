@@ -2,12 +2,17 @@
 # https://learn.adafruit.com/make-it-shake-rattle-and-roll/use-in-circuitpython
 
 import time
+import math
 from adafruit_circuitplayground.express import cpx
 
 while True:
     x, y, z = cpx.acceleration
     print((x,y,z))
     time.sleep(0.5)
+
+    # compute the x/y angle from vertical
+    angle_from_vertical = math.atan(y/x)
+    print((angle_from_vertical ,angle_from_vertical *180/math.pi))
     
 # Activities:
 # 1. in Mu, turn on the plotter
