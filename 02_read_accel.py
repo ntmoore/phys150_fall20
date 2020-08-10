@@ -17,5 +17,7 @@ while True:
 # Activities:
 # 1. in Mu, turn on the plotter
 # 2. Rotate the board and watch the three values. What does +/- number mean?
-# 3. hold agains your stomach and breathe slowly.  Can you count your breaths from the data?
-#
+# 3. Raise the board quickly.  What happens to the three values?
+# 4. hold agains your stomach and breathe slowly.  Can you count your breaths from the data?
+# 5. How could you make a bike taillight that automatically gets brighter when you slow down?
+# 
