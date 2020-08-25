@@ -18,4 +18,5 @@ while True:
         led.value = False
         time.sleep(a/10)
     
-# loops? Blink out an SOS pattern with a foreach loop that specifies duration
+# What if you wanted the LED to be a bright-dim oscillating pattern?
+# loops? You could blink out an SOS pattern (...---...) with a foreach loop that specifies duration
