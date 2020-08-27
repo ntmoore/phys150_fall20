@@ -35,3 +35,4 @@ while True:
             i = i-1
         else:
             print("unexpected up value, stop?")
+# Q: How could we use while loops and if statements to "buzz" out two different smoothed brightness levels?
