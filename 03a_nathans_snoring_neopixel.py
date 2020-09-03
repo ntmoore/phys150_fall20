@@ -42,8 +42,7 @@ while True:
         time.sleep(period/(2*num_levels))
         
 
-
-'''
+"""
 code.py output:
 levels are:  [0.0]
 levels are:  [0.0, 25.5]
@@ -68,4 +67,4 @@ levels are:  [0.0, 25.5, 51.0, 76.5, 102.0, 127.5, 153.0, 178.5, 204.0, 229.5, 2
 length of levels 20
 period =  1.0
 dt =  0.05
-'''
+"""
