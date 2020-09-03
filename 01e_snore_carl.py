@@ -20,15 +20,15 @@ while True:
         #brightness increases
         i=0
         T_on = brightness*T_fast
-        T_off = (1-brightness)*T_fast
+        T_off = (1.0-brightness)*T_fast
         while (i<num_repeats):
             led.value = True
             time.sleep(T_on)
             led.value = False
             time.sleep(T_off)
-            i=i+1
-        j = j+1
-        brightness = brightness+T_fast*90/length
+            i++
+        j--
+        brightness = brightness+(T_fast*90.0)/length
 
     while (j>0):
         #brightness decreases
@@ -40,6 +40,6 @@ while True:
             time.sleep(T_on)
             led.value = False
             time.sleep(T_off)
-            i=i+1
-        j = j-1
-        brightness = brightness-T_fast*90/length
+            i++
+        j--
+        brightness = brightness-(T_fast*90.0)/length
