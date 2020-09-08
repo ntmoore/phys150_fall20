@@ -11,7 +11,8 @@ from adafruit_circuitplayground import cp
  
 
 while True:
-    length = 255 #sets the length of the snore
+    #length = 255 #sets the length of the snore
+    length = 360 # duration in seconds?
     j=0
     wait_down = .001
     wait_up = .001
