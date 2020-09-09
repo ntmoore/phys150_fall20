@@ -3,6 +3,9 @@
 #
 # note, this doesn't do what I think it should See the relevant video for an illustratiuon of function
 #
+#  here is a video link showing the routine
+# https://web.microsoftstream.com/video/7e1625de-1893-4e86-b8d9-fa58edf2e0c1
+#
 import time
 import random
 from adafruit_circuitplayground import cp
