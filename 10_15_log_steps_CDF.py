@@ -71,13 +71,13 @@ def count_steps(fp):
 
         time.sleep(read_delay)
 
-        elif cpx.button_a: #press button a to record the # of steps to "steps.txt"
+        if cpx.button_a: #press button a to record the # of steps to "steps.txt"
             cpx.red_led = True
             cp.pixels[0]=(0,0,0)
             print('logging',(t3,num_steps))
             fp.write('{0},{1}\n'.format(t3,num_steps))
             time.sleep(0.1)
-        elif cpx.button_b:
+        if cpx.button_b:
             cpx.red_led = False
             cp.pixels[0]=(0,50,0)
             num_steps = 0
@@ -91,7 +91,7 @@ def count_steps(fp):
 try:
     #open a file to save the data to
     with open("/steps.txt", "a") as fp:
-
+        
         cp.pixels[1]=(0,0,50)
         count_steps(fp)
 
