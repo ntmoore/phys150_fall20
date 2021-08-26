@@ -26,8 +26,8 @@ while True:
             time.sleep(T_on)
             led.value = False
             time.sleep(T_off)
-            i++
-        j--
+            i+=1
+        j+=1
         brightness = brightness+(T_fast*90.0)/length
 
     while (j>0):
@@ -40,6 +40,6 @@ while True:
             time.sleep(T_on)
             led.value = False
             time.sleep(T_off)
-            i++
-        j--
+            i+=1
+        j-=1
         brightness = brightness-(T_fast*90.0)/length
