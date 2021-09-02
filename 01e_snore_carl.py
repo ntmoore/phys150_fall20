@@ -12,7 +12,10 @@ led.direction = digitalio.Direction.OUTPUT
 
 while True:
     num_repeats=2 #sets how long at each brightness
-    length = 180 #sets the length of the snore
+
+    length = 180 #sets the length of the snore 
+#    Carl, is this measured in seconds or repititions?
+
     j=0
     brightness = .1     # initial brightness is measured out of a max of 1.0
     T_fast = 0.01
